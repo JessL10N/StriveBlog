@@ -17,7 +17,7 @@ const Header = ({ darkMode, toggleTheme }) => {
         <Navbar.Brand href="/">StriveBlog</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="m-2 d-flex justify-content-center">
+          <Nav className="m-2 d-flex justify-content-center align-items-center">
             <SignedOut>
               <Nav.Link href="/">Home</Nav.Link>
               <SignInButton className="btn btn-dark rounded m-2" />
